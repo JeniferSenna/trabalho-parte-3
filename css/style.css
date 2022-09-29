@@ -95,6 +95,7 @@ main {
   display: flex;
   background-size: 300% 300%;
   animation: BDColors 15s ease infinite;
+  text-align: center;
 }
 
 .login {
@@ -196,4 +197,17 @@ main {
 
 .mobile-menu.active .line3 {
   transform: rotate(45deg) translate(-5px, -7px);
+}
+
+
+
+.border {
+  text-align: center;
+  border: #4a0083 solid;
+  border-radius: 5%;
+  background-color: rgb(253, 252, 251);
+  
+}
+#ou {
+  text-align: center;
 }
