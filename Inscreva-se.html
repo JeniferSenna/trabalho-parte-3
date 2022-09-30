@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -28,46 +29,34 @@
 
     <main>
         <form method="post">
-          <div id="cadastrar" class='border'>
-            <div class='card'>
-                <h1> Inscreva-se </h1>
+          <div class='border'>
+              <h1> Inscreva-se </h1>
               <br>
-          <div class="buttom_insc">
+          
           <legend>Entre usando:</legend>
           <button type="button" class="btn-facebook" aria-label="Close">Inscreva-se com Facebook</button><br>
           <button type="button" class="btn-google" aria-label="Close">Increva-se com o Google</button><br>
           <hr>
-          <legend id="ou"><h1>OU</h1></legend>
-          <hr>
+          <legend><h1>OU</h1></legend>
+          <hr>    
+          <legend>Escreva seu nome:</legend>
+          <input type='text' id='usuario' placeholder="Nome">
+          <br>
+          <legend>Qual o seu e-mail?</legend>
+          <input type="email" name="email" required><br>
+          <legend>Confirme seu e-mail</legend>
+          <input type="email" name="email_confirm" required><br>
+          <legend>Data de Nascimento</legend>
+          <input type="date" name="data_nasc" required><br>
+          <legend>Escolha uma Senha</legend>
+          <input type='password' id='Senha' required>
+          <br>
+          <legend>Confirme a sua Senha</legend>
+          <input type='password' id='ConfirmSenha' required>
+        <br>      
         </div>
-        <div class='label-float'>
-            <legend>Escreva seu nome:</legend>
-            <input type='text' id='usuario' placeholder="Nome">
-        </div> 
-        <br>
-        <legend>Qual o seu e-mail?</legend>
-        <input type="email" name="email" required><br>
-
-        <legend>Confirme seu e-mail</legend>
-        <input type="email" name="email_confirm" required><br>
-
-        <legend>Data de Nascimento</legend>
-        <input type="date" name="data_nasc" required><br>
-        
-        <div class='label-float'>
-            <legend>Escolha uma Senha</legend>
-            <input type='password' id='Senha' required>
-        </div>
-        <br>
-        <div class='label-float'>
-            <legend>Confirme a sua Senha</legend>
-            <input type='password' id='ConfirmSenha' required>
-        </div>
-        <br>
-        <div class='justify-center'>
-            <button>Cadastrar</button>
-        </div>
-          </div>
+        <div id="buttoncad" class='justify-center'>
+          <button>Cadastrar</button>
         </div>
     </form>
     </main>

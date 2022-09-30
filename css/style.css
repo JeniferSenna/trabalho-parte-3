@@ -27,7 +27,7 @@ a:hover {
 }
 
 .search-b {
-  background-color:#4a0083;
+  background-color:#8a11e7;
   height: 30px;
   padding: 10px;
   border-radius: 40px;
@@ -96,6 +96,7 @@ main {
   background-size: 300% 300%;
   animation: BDColors 15s ease infinite;
   text-align: center;
+
 }
 
 .login {
@@ -203,11 +204,11 @@ main {
 
 .border {
   text-align: center;
-  border: #4a0083 solid;
-  border-radius: 5%;
-  background-color: rgb(253, 252, 251);
+  margin-top: 10%;
+  margin-left: auto;
+  margin-right: auto;
   
 }
-#ou {
-  text-align: center;
+#buttoncad {
+  margin-top: 5%;
 }
