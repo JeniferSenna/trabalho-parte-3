@@ -222,3 +222,13 @@ main {
     border: 20% #6AFA6A solid;
     padding: auto;
 }
+.cadastrar {
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    margin: 0 auto;
+    text-align: center;
+    border: 20% #6AFA6A solid;
+    padding: auto;
+}
+
