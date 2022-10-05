@@ -40,7 +40,7 @@ a:hover {
 ::-webkit-input-placeholder {
   font-size: 17px;
   font-family: 'Poppins', sans-serif;
-  color: rgb(252, 238, 238);
+  color: #3b0a8a;
 }
 
 .search-text {
@@ -90,19 +90,25 @@ nav {
 }
 
 main {
-   background: linear-gradient(45deg, #3b0a8a, #866bff, #d06bff, #756bff);
+  background: linear-gradient(45deg, #3b0a8a, #866bff, #d06bff, #756bff);
   height: 92vh;
   display: flex;
   background-size: 300% 300%;
   animation: BDColors 15s ease infinite;
   text-align: center;
   align-items: center;
+  justify-content: center;
 
 }
 
 .login {
     max-width: fit-content;
     margin:auto;
+}
+input::placeholder {
+    color: #3b0a8a;
+    text-align: center;
+    margin-bottom: 10%;
 }
 
 .password {
@@ -213,22 +219,31 @@ main {
 #buttoncad {
   margin-top: 5%;
 }
+
 .baixar {
     justify-content: center;
     align-items: center;
     width: 200%;
     margin: 0 auto;
     text-align: center;
-    border: 20% #6AFA6A solid;
-    padding: auto;
+    
 }
 .cadastrar {
     justify-content: center;
     align-items: center;
-    width: 200%;
+    width: 300%;
     margin: 0 auto;
     text-align: center;
-    border: 20% #6AFA6A solid;
-    padding: auto;
+    
+}
+.initial {
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+      
+}
+.initial button {
+    width: 200%;
 }
 
