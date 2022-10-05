@@ -90,12 +90,13 @@ nav {
 }
 
 main {
-  background: linear-gradient(45deg, #3b0a8a, #866bff, #d06bff, #756bff);
+   background: linear-gradient(45deg, #3b0a8a, #866bff, #d06bff, #756bff);
   height: 92vh;
   display: flex;
   background-size: 300% 300%;
   animation: BDColors 15s ease infinite;
   text-align: center;
+  align-items: center;
 
 }
 
@@ -211,4 +212,13 @@ main {
 }
 #buttoncad {
   margin-top: 5%;
+}
+.baixar {
+    justify-content: center;
+    align-items: center;
+    width: 200%;
+    margin: 0 auto;
+    text-align: center;
+    border: 20% #6AFA6A solid;
+    padding: auto;
 }
