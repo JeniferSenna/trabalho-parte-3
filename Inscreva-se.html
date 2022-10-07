@@ -19,29 +19,33 @@
           <div class="line3"></div>
         </div>
         <ul class="nav-list">
-          <li><a href="#">Início</a></li>
-          <li><a href="#">login</a></li>
-          <li><a href="#">web player</a></li>
-          <li><a href="#">baixar</a></li>
+          <li><a href="index.html">Início</a></li>
+          <li><a href="whoweare.html">Sobre</a></li>
+          <li><a href="login.html">Login</a></li>
+          <li><a href="playlist.html">Play List</a></li>
+          <li><a href="baixar.html">Baixar</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-        <form method="post" class="cadastrar">
-          <div class='border'>
+      <div class='cadastrar'>
+        <form method="post">
             <h1> Inscreva-se </h1>
             <br>
-          
-            <legend>Cadastre-se com:</legend>
+            <div>
+            
             <button type="button" class="btn-facebook" aria-label="Close">Cadastre-se com Facebook</button><br>
             <button type="button" class="btn-google" aria-label="Close">Cadastre-se com o Google</button><br>
-            <hr>
+            </div>
+
+            <div>
             <legend><h3>OU</h3></legend>
-            <hr>    
-          
+            </div>
+
+            <div>
             <legend>Escreva seu nome:</legend>
-            <input type='text' id='usuario' placeholder="Nome">
+            <input type='text' id='usuario' required>
             <br>
             <legend>Qual o seu e-mail?</legend>
             <input type="email" name="email" required><br>
@@ -54,12 +58,13 @@
             <br>
             <legend>Confirme a sua Senha</legend>
             <input type='password' id='ConfirmSenha' required>
-            <br>      
-          </div>
+            <br>
+            </div>      
+            </form>
           <div id="buttoncad" class='justify-center'>
             <button>Cadastrar</button>
           </div>
-    </form>
+      </div>
     </main>
     <script src="/js/mobile-navbar.js"></script>
   </body>
